@@ -1,0 +1,253 @@
+.home {
+  background-image: url('https://i.pinimg.com/1200x/52/96/d2/5296d278edb033de7804f3f1b832a106.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage {
+  background-color: rgba(0, 0, 0, 0.584);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-services {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-services h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+.about-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+
+
+
+/*card*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff7fa;
+  border-radius: 15px;
+  padding: 25px;
+  width: 260px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/*gallery*/
+
+.highlights {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.highlights h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.highlight-gallery {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+/*cintact*/
+.contact {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-subtext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #d98fa3;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #c76c8d;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #fceef3;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.footer h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #777;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
+
+.footer-links li a:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.footer .copyright {
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 15px;
+}
+
+
